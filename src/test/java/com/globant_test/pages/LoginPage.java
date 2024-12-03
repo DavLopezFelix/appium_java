@@ -65,8 +65,8 @@ public class LoginPage extends BasePage{
         clickElement(logInButton);
     }
 
-    public void checkExpectedMessage(String expectedMessage){
-        assertEquals(getElementValue(popupMessage), expectedMessage);
+    public String getCurrentMessage(){
+        return getElementValue(popupMessage);
     }
 
 }

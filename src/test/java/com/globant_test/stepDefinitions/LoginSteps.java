@@ -5,6 +5,8 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
+import static org.testng.Assert.assertEquals;
+
 public class LoginSteps extends LoginPage {
 
     @Given("The Login screen is open")
@@ -44,7 +46,7 @@ public class LoginSteps extends LoginPage {
 
     @Then("I should see popup {string}")
     public void iShouldSeePopUp(String expectedMessage){
-        checkExpectedMessage(expectedMessage);
+        assertEquals(getCurrentMessage(), expectedMessage);
     }
 
 
