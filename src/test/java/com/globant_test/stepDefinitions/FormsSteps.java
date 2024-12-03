@@ -4,6 +4,8 @@ import com.globant_test.pages.FormsPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import static org.testng.Assert.*;
+
 
 public class FormsSteps extends FormsPage {
 
@@ -19,6 +21,6 @@ public class FormsSteps extends FormsPage {
 
     @Then("I should see {string} in expected field")
     public void ishouldSeeExpectedText(String expectedText){
-        checkTypedText(expectedText);
+        assertEquals(getTypedText(), expectedText);
     }
 }

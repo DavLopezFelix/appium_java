@@ -6,7 +6,7 @@ import static org.testng.Assert.*;
 
 public class FormsPage extends BasePage{
 
-    @FindBy(xpath = "//android.view.View[@content-desc=\"Forms\"]")
+    @FindBy(xpath = "//android.view.View[@content-desc='Forms']")
     private WebElement formsScreen;
 
     @FindBy(xpath = "//android.widget.EditText[@content-desc=\"text-input\"]")
@@ -29,15 +29,15 @@ public class FormsPage extends BasePage{
         inputText(inputField, text);
     }
 
-    public void checkTypedText(String expectedMessage){
-        assertEquals(getElementValue(typedField), expectedMessage);
+    public String getTypedText( ){
+        return getElementValue(typedField);
     }
 
     public void checkSwitch(){
         clickElement(switchElement);
     }
 
-    public void checkSwitchTextStatus(String expectedMessage){
-        assertEquals(getElementValue(switchTextStatus), expectedMessage);
+    public String getSwitchTextStatus(String expectedMessage){
+        return getElementValue(switchTextStatus);
     }
 }
