@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5eb632af-faa9-4bca-99cb-cab90cd4927a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/globant_test/pages/FormsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/globant_test/stepDefinitions/FormsSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Forms.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/spark-config.xml" afterDir="false" />
+    <list default="true" id="5eb632af-faa9-4bca-99cb-cab90cd4927a" name="Changes" comment="support screenshot">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/globant_test/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/globant_test/runners/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Home.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Home.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/globant_test/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/globant_test/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/globant_test/pages/FormsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/globant_test/pages/FormsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/globant_test/stepDefinitions/FormsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/globant_test/stepDefinitions/FormsSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Forms.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Forms.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,19 +35,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cucumber Java.Feature: Login.executor": "Run",
-    "Cucumber Java.Scenario: Sign up.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.TestRunner.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/David/VSCScripts/Java/mobile_testing/webdriverio_framework/src/test/resources",
-    "onboarding.tips.debug.path": "E:/David/VSCScripts/Java/mobile_testing/untitled/src/main/java/org/example/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cucumber Java.Feature: Login.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Sign up.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.TestRunner.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/David/VSCScripts/Java/mobile_testing/webdriverio_framework/src/test/resources&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/David/VSCScripts/Java/mobile_testing/untitled/src/main/java/org/example/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\David\VSCScripts\Java\mobile_testing\webdriverio_framework\src\test\resources" />
@@ -132,7 +127,73 @@
       <option name="presentableId" value="Default" />
       <updated>1731784360039</updated>
     </task>
+    <task id="LOCAL-00001" summary="extent report ok">
+      <option name="closed" value="true" />
+      <created>1732036892772</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732036892772</updated>
+    </task>
+    <task id="LOCAL-00002" summary="pdf report and screenshots">
+      <option name="closed" value="true" />
+      <created>1732748055166</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732748055166</updated>
+    </task>
+    <task id="LOCAL-00003" summary="useless cucumber report log">
+      <option name="closed" value="true" />
+      <created>1732748072620</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732748072620</updated>
+    </task>
+    <task id="LOCAL-00004" summary="support cmd test run">
+      <option name="closed" value="true" />
+      <created>1732748098444</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732748098444</updated>
+    </task>
+    <task id="LOCAL-00005" summary="asserts in step defintion">
+      <option name="closed" value="true" />
+      <created>1733244918358</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733244918358</updated>
+    </task>
+    <task id="LOCAL-00006" summary="asserts in step defintion">
+      <option name="closed" value="true" />
+      <created>1733244945434</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733244945434</updated>
+    </task>
+    <task id="LOCAL-00007" summary="support screenshot">
+      <option name="closed" value="true" />
+      <created>1733244959231</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733244959231</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="extent report ok" />
+    <MESSAGE value="pdf report and screenshots" />
+    <MESSAGE value="useless cucumber report log" />
+    <MESSAGE value="support cmd test run" />
+    <MESSAGE value="asserts in step defintion" />
+    <MESSAGE value="support screenshot" />
+    <option name="LAST_COMMIT_MESSAGE" value="support screenshot" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

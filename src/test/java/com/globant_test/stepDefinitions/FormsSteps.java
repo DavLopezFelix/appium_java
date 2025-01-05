@@ -23,4 +23,49 @@ public class FormsSteps extends FormsPage {
     public void ishouldSeeExpectedText(String expectedText){
         assertEquals(getTypedText(), expectedText);
     }
+
+    @When("I click the switch")
+    public void iSwipeSwitch(){
+        swipeSwitch();
+    }
+
+    @Then("I should see {string} in expected switch field")
+    public void iShouldSeeExpectedTextInSwitchField(String expectedText){
+        assertEquals(getTypedSwitchText(), expectedText);
+    }
+
+    @When("I select the dropdown option {string}")
+    public void iSelectTheOptionInDropdown(String selectedOption){
+        selectOptionInDropDown(selectedOption);
+    }
+
+    @Then("The selected dropdown option should be {string}")
+    public void iShouldSeeTheExpectedDropdownOoption(String expectedOption){
+        assertEquals(getSelectedOptionInDropdown(), expectedOption);
+    }
+
+    @When("I click the button")
+    public void iClickOnTheButton(){
+        clickActiveButton();
+    }
+
+    @Then("I should see a popup")
+    public void iShouldSeeAPopup(){
+        assertTrue(popupIsDisplayed());
+    }
+
+    @Then("I should see {string} on the popup")
+    public void iShouldSeeAMessage(String expectedMessage){
+        assertEquals(getPopupMessage(), expectedMessage);
+    }
+
+    @When("I click the OK option")
+    public void iClickOnTheOKOption(){
+        clickOkOption();
+    }
+
+    @Then("I should not see the popup")
+    public void iShouldNotSeeThepopup(){
+        assertTrue(popupIsDisplayed());
+    }
 }
